@@ -53,4 +53,24 @@ This new functional approach to ETL better leverage modern distributed computati
 - [Functional Data Engineering — a modern paradigm for batch data processing (blog post)](https://medium.com/@maximebeauchemin/functional-data-engineering-a-modern-paradigm-for-batch-data-processing-2327ec32c42a)
 - [Functional Data Engineering — a set of best practices (video)](https://www.youtube.com/watch?v=4Spo2QRTz1k)
 
+# 06 - DATA PIPELINE TEST
+Pipeline debt is a species of technical debt that infests backend data systems. It drags down productivity and puts analytic integrity at risk. The best way to beat pipeline debt is a new twist on automated testing: pipeline tests, which are applied to data (instead of code) and at batch time (instead of compile or deploy time). This post describes the pipeline testing problem and introduces [Great Expectations](https://docs.greatexpectations.io/en/latest/), an open-source tool that make easy to perform and automate these kind of tests.
+
+
+## Links
+- [Down with Pipeline debt / Introducing Great Expectations (blog post)](https://medium.com/@expectgreatdata/down-with-pipeline-debt-introducing-great-expectations-862ddc46782a)
+- [Pipeline testing with Great Expectations (video)](https://learning.oreilly.com/videos/strata-data-conference/9781492025955/9781492025955-video319102)
+
+# 07 - DATA APPLICATIONS
+A model based on the clear separation between pure tasks that produce and consume data assets in a deterministic and idempotent way and orchestration logic is increasingly becoming established in the development of ETL processes and ML pipeline. 
+
+In this model builders can use the tool of their choice — e.g. Spark for data engineers, SQL for analysts, Python for data scientists — all while collaborating on the same logical data application. They do not have to abandon all their existing code or investments in those tools. 
+
+In this blog post **Nick Schrock** describes [Dagster](https://dagster.readthedocs.io/en/0.6.4/),  an open-source library focused on  the orchestration of the graph of heterogeneous  transformation tasks that compose this new class of data applications. In particular he dive into the genesis of and inspiration for this project, the unique challenges of building data applications and the project’s roadmap.
+
+## Links
+- [Introducing Dagster - A open-source Python library for building data applications (blog post)](https://medium.com/dagster-io/introducing-dagster-dbd28442b2b7)
+- [Dagster: A New Programming Model for Data Processing (video)](https://www.youtube.com/watch?v=D_1VJapCscc)
+- [Build Maintainable And Testable Data Applications With Dagster (podcast)](https://www.dataengineeringpodcast.com/dagster-data-applications-episode-104/)
+
 
