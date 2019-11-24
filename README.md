@@ -74,3 +74,22 @@ In this blog post **Nick Schrock** describes [Dagster](https://dagster.readthedo
 - [Build Maintainable And Testable Data Applications With Dagster (podcast)](https://www.dataengineeringpodcast.com/dagster-data-applications-episode-104/)
 
 
+# 08 - DATA ENGINEERING TRENDS
+The way data platforms are built and managed is changing fast. In this post **Chris Riccomini** describes four areas in particular where there will most likely be shifts over the next few years in the practice: Timeliness, Connectivity, Centralization and Automation.
+
+## Links
+-[The Future of Data Engineering](https://riccomini.name/future-data-engineering)
+
+## 09 - DATA GRAVITY
+In this post **Dave McCrory** introduce for the first time the idea that data has a mass and when begins to accumulate it generates a gravity field. accumulates, it begins to have gravity. This Data Gravity pulls services and applications closer to the data.  This attraction (gravitational force) is caused by the need for services and applications to have higher bandwidth and/or lower latency access to the data. The larger the mass the greater the attraction and consequently the concentration and complexity of the system.
+
+## Links
+-[Data Gravity – in the Clouds (blog post)](https://datagravitas.com/2010/12/07/data-gravity-in-the-clouds/)
+-[Data Gravity and Complex Systems (video)](https://www.youtube.com/watch?v=nMo5V5JcdAU)
+
+# 10 - DATA CENTRICITY
+Legacy systems because of data gravity continue to get more and more entrenched while at the same time silos are becoming more numerous. The problem, at its core, is that we have allowed applications exclusive control over the data they manipulate. The remedy is to flip this on its head. Data is the center of the universe; applications are ephemeral. In this post **Nick Lazzaro** describe this paradigm shift towards Data-Centricity that is occurring in data management.
+
+## Links
+-[A Generational Shift Is Occurring In Data Management](https://www.forbes.com/sites/forbestechcouncil/2019/10/16/a-generational-shift-is-occurring-in-data-management/)
+-[The data centric manifesto](http://datacentricmanifesto.org/)
